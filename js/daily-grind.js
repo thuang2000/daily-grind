@@ -42,10 +42,30 @@ myDay = parseInt(myDay);
 switch(myDay){
 
  	case 0:
-    	today =  "Sunday";
+   		today = "Sunday";
+        coffee = {
+            name:"Caramel Latte",
+            pic:"caramel-latte.jpg",
+            alt:"A pic of a caramel latte.",
+            color:"yellow",
+            day:"Sunday",
+            desc:`Caramel latte would be nice!`
+        };
  	break;
 
- 	case 2:
+ 	case 1:
+   		today = "Monday";
+        coffee = {
+            name:"Cold Brew",
+            pic:"cold-brew.jpg",
+            alt:"A pic of a cold brew.",
+            color:"black",
+            day:"Monday",
+            desc:`Chilly cold brew to start my day!`
+        };
+ 	break;
+
+    case 2:
    		today = "Tuesday";
         coffee = {
             name:"Bubble Tea",
@@ -54,6 +74,54 @@ switch(myDay){
             color:"pink",
             day:"Tuesday",
             desc:`I like some bubble tea!`
+        };
+ 	break;
+
+    case 3:
+   		today = "Wednesday";
+        coffee = {
+            name:"drip",
+            pic:"drip.jpg",
+            alt:"A pic of a drip coffee.",
+            color:"red",
+            day:"Wednesday",
+            desc:`Classy drip coffee!`
+        };
+ 	break;
+
+    case 4:
+   		today = "Thursday";
+        coffee = {
+            name:"Frappaccino",
+            pic:"frappaccino.jpg",
+            alt:"A pic of a frappaccino.",
+            color:"brown",
+            day:"Thursday",
+            desc:`Tasty frappaccino!`
+        };
+ 	break;
+
+    case 5:
+   		today = "Friday";
+        coffee = {
+            name:"Mocha",
+            pic:"mocha.jpg",
+            alt:"A pic of a mocha tea.",
+            color:"green",
+            day:"Friday",
+            desc:`I want mocha!`
+        };
+ 	break;
+
+    case 6:
+   		today = "Saturday";
+        coffee = {
+            name:"Pumpkin Spice Latte",
+            pic:"pumpkin-spice-latte.jpg",
+            alt:"A pic of a pumpkin spice latte.",
+            color:"orange",
+            day:"Saturday",
+            desc:`The season is right for some pumpkin spice latte!`
         };
  	break;
 
